@@ -1,218 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SKAYLY skaly-fitness-logo Landing Page</title>
-    
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
-    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
-  
-    <link rel="stylesheet" href="style.css" />
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  </head>
 <body>
-    <!-- Menu -->
-    <div class="menu">
-        <div class="container flex">
-            <!-- Mobile Button -->
-            <div class="mobile-btn">
-                <ion-icon name="grid"></ion-icon>
-            </div>
-            <div class="logo">
-                <img src="0C413FFE-631C-428F-852E-7D53778E15E4_1_201_a.jpeg" alt="Skaly Fitness">
-            </div>
-            
-            <ul class="nav">
-                <li class="nav-item"><a href="#">Home</a></li>
-                <li class="nav-item"><a href="#why-us">Features</a></li>
-                <li class="nav-item"><a href="#explore">Explore</a></li>
-                <li class="nav-item"><a href="#discount">Register</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid mt-3">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
             </ul>
-          
-            <a href="#" class="btn">Register</a>
+            <button class="membership-btn" id="membership-btn">Membership</button>
+            <button class="login-btn" id="Login-btn">Login</button>
+          </div>
         </div>
-    </div>
-    <!-- End Menu -->
-    <!-- Header -->
-    <header class="header">
-        <div class="container flex">
-            <div class="text">
-                <h1 class="mb">
-                    Complete Daily <br />
-                    <span>Workout</span> At Home
-                </h1>
-                <p class="mb">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
-                    sunt sed tempora neque molestiae corrupti nobis harum ullam eos nam!
-                </p>
-                <a href="#" class="btn mt">Get Started Now</a>
-            </div>
-            <div class="visual">
-                <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/banner-img.png" alt="" />
-            </div>
+      </nav>
+      <div class="background-img">
+        <div class="background-grad"></div>
+        <img class="img1" src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/banner-img.png" alt="background-img">
+        <div  class="h3_txt">  <h3>
+          Base Fit - Functional Fitness Studio
+        </h3> </div>
+        <div class="h1_txt">
+        <h1>
+          Where Fitness Becomes Your Lifestyle
+        </h1>
+      </div>
+      </div>
+      <section class="section-2">
+        <div class="img-div sec-2-img">
+          <!-- <img class="sec-2-img" src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/explore.jpg" alt=""> -->
         </div>
-    </header>
-    <!-- End Header -->
-    <!-- Why Us -->
-    <div class="section" id="why-us">
-        <div class="container flex">
-            <div class="text">
-                <h2 class="primary mb">Why Choose Us?</h2>
-                <h3 class="secondary mb">Consulatation with Expert.</h3>
-                <p class="tertiary">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quos
-                    maxime tempore?
-                </p>
-                <h3 class="secondary mb">Consulatation with Expert.</h3>
-                <p class="tertiary">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quos
-                    maxime tempore?
-                </p>
-            </div>
-            <div class="visual">
-                <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/why-us.png" alt="" />
-            </div>
+        <div class="sec-2-text">
+          <h1>Why Choose Us?</h1>
+          <h2>Consultation with Experts</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt voluptatibus rem architecto laboriosam. Facilis et nulla amet, nesciunt aut eaque rerum doloremque itaque possimus, numquam, voluptate cumque consequatur! Consequatur!Amet recusandae ehwjrioy9 rgtrthrghggt   hvrtee</p>
+          <button class="read-more-btn">Read More 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+            </svg>
+          </button>
         </div>
-    </div>
-    <!-- End Why Us -->
-    <!-- Explore -->
-    <div class="section" id="explore">
-        <div class="container flex">
-            <div class="visual">
-                <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/explore.jpg" alt="" />
-            </div>
-            <div class="text">
-                <h2 class="primary mb">
-                    Explore Our Fitness <br />
-                    Studio
-                </h2>
-                <p class="tertiary mb">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-                    esse vitae ratione quos maiores eveniet temporibus illum! Eligendi
-                    amet officia unde sint totam ut optio. Molestiae, illo quia?
-                </p>
-                <a href="#" class="btn mt">Get Started Now</a>
-            </div>
+      </section>
+      <section class="section-3">
+        <h1 class="text-center mt-2 sec-3-heading">
+          Join Base and Transform Your<br> Body and Mind</h1>
+        <div class="sec-3-img"><wix-video id="videoContainer_comp-k051odxf" data-video-info="{&quot;fittingType&quot;:&quot;fill&quot;,&quot;alignType&quot;:&quot;center&quot;,&quot;hasBgScrollEffect&quot;:&quot;&quot;,&quot;bgEffectName&quot;:&quot;&quot;,&quot;videoId&quot;:&quot;ad420a_d36342da247848dbbf81c357052c1673&quot;,&quot;videoWidth&quot;:1920,&quot;videoHeight&quot;:1080,&quot;qualities&quot;:[{&quot;quality&quot;:&quot;480p&quot;,&quot;size&quot;:409920,&quot;url&quot;:&quot;video/ad420a_d36342da247848dbbf81c357052c1673/480p/mp4/file.mp4&quot;},{&quot;quality&quot;:&quot;720p&quot;,&quot;size&quot;:921600,&quot;url&quot;:&quot;video/ad420a_d36342da247848dbbf81c357052c1673/720p/mp4/file.mp4&quot;},{&quot;quality&quot;:&quot;1080p&quot;,&quot;size&quot;:2073600,&quot;url&quot;:&quot;video/ad420a_d36342da247848dbbf81c357052c1673/1080p/mp4/file.mp4&quot;}],&quot;isVideoDataExists&quot;:&quot;1&quot;,&quot;videoFormat&quot;:&quot;mp4&quot;,&quot;playbackRate&quot;:1,&quot;autoPlay&quot;:true,&quot;containerId&quot;:&quot;comp-k051odxf&quot;,&quot;animatePoster&quot;:&quot;none&quot;}" class="bX9O_S bgVideo yK6aSC"><video id="comp-k051odxf_video" class="K8MSra" crossorigin="anonymous" playsinline="" preload="auto" loop="" tabindex="-1" autoplay="autoPlay" src="https://video.wixstatic.com/video/ad420a_d36342da247848dbbf81c357052c1673/720p/mp4/file.mp4" style="height: 130%; width: 100%; object-fit: cover; object-position: center center; opacity: 1;"></video><wow-image id="comp-k051odxf_img" class="HlRz5e Z_wCwr Jxk_UL bgVideoposter yK6aSC" data-image-info="{&quot;containerId&quot;:&quot;comp-k051odxf&quot;,&quot;alignType&quot;:&quot;center&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:488,&quot;targetHeight&quot;:621,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:3840,&quot;height&quot;:2160,&quot;uri&quot;:&quot;ad420a_d36342da247848dbbf81c357052c1673f000.jpg&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;quality&quot;:{&quot;unsharpMask&quot;:{&quot;radius&quot;:0.33,&quot;amount&quot;:1,&quot;threshold&quot;:0}},&quot;devicePixelRatio&quot;:1}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/ad420a_d36342da247848dbbf81c357052c1673f000.jpg/v1/fill/w_709,h_621,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/ad420a_d36342da247848dbbf81c357052c1673f000.jpg" style="opacity: 0;"><img src="https://static.wixstatic.com/media/ad420a_d36342da247848dbbf81c357052c1673f000.jpg/v1/fill/w_709,h_621,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/ad420a_d36342da247848dbbf81c357052c1673f000.jpg" alt="" width="488" height="621" style="width: 709px; height: 621px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"></wow-image></wix-video></div>
+        <div class="sec-3-txt">
+          <h1>
+            Community
+          </h1>
+          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
         </div>
-    </div>
-    <!-- End Explore -->
-    <!-- Trainer -->
-    <div class="section" id="trainer">
-        <h2 class="primary mb">Our Professional Trainers</h2>
-        <div class="container flex">
-            <div class="trainer">
-                <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/trainer1.jpg" alt="" />
-                <h3 class="secondary mb">Alan Smith</h3>
-                <p class="tertiary mb">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla.
-                </p>
-                <a href="#" class="btn-2">
-                    <ion-icon name="arrow-redo-circle-outline"></ion-icon>
-                </a>
-            </div>
-            <div class="trainer">
-                <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/trainer2.jpg" alt="" />
-                <h3 class="secondary mb">Alan Smith</h3>
-                <p class="tertiary mb">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla.
-                </p>
-                <a href="#" class="btn-2">
-                    <ion-icon name="arrow-redo-circle-outline"></ion-icon>
-                </a>
-            </div>
-            <div class="trainer">
-                <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/trainer3.jpg" alt="" />
-                <h3 class="secondary mb">Alan Smith</h3>
-                <p class="tertiary mb">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla.
-                </p>
-                <a href="#" class="btn-2">
-                    <ion-icon name="arrow-redo-circle-outline"></ion-icon>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- End Trainer -->
-    <!-- Testimonial -->
-    <div class="section" id="testimonial">
-        <div class="container flex">
-            <div class="text">
-                <h2 class="primary">
-                    That's What Our Super <br />
-                    Client Says
-                </h2>
-                <br />
-                <br />
-                <br />
-                <div class="client">
-                    <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/client1.jpg" alt="" />
-                    <h2 class="secondary">Exelent Training</h2>
-                    <p class="tertiary">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-                        quas voluptatem ad, repudiandae voluptates odio deleniti
-                        reiciendis in veniam quidem expedita maxime error fugit. Pariatur
-                        quasi sunt aut id. Lorem, ipsum dolor sit amet consectetur
-                        adipisicing elit. Neque, officiis.
-                        GYM which marda hai ZOR tere lai....
-                    </p>
-                </div>
-            </div>
-            <div class="visual">
-                <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/testimonial.png" alt="" />
-            </div>
-        </div>
-    </div>
-    <!-- End Testimonial -->
-    <!-- Discount -->
-    <div class="section" id="discount">
-        <div class="container flex">
-            <div class="visual">
-                <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/discount.png" alt="" />
-            </div>
-            <div class="text">
-                <h2 class="primary mb">
-                    Fitness Classes This Summer, Pay Now And Get 25% Discount
-                </h2>
-                <p class="tertiary mb">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab maxime
-                    minus praesentium est et veniam voluptate alias excepturi minima
-                    placeat amet nostrum, eligendi, quod cum ducimus nesciunt ipsa eum,
-                    explicabo eaque obcaecati.
-                </p>
-                <a href="#" class="btn bt">Book Now</a>
-            </div>
-        </div>
-    </div>
-    <div class="section" id="explore">
-        <div class="container flex">
-            <div class="visual">
-                <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/explore.jpg" alt="">
-            </div>
-            <div class="text">
-                <h2 class="primary mb">
-                    Explore Our Fitness <br>
-                    Studio
-                </h2>
-                <p class="tertiary mb">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-                    esse vitae ratione quos maiores eveniet temporibus illum! Eligendi
-                    amet officia unde sint totam ut optio. Molestiae, illo quia?
-                </p>
-                <a href="bmi-calculator.html" class="btn">Calculate Your BMI</a>
-            </div>
-        </div>
-    </div>
-    <!-- End Discount -->
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container flex">
-            <p class="tertiary">
-                &copy; 2022 Programmer Cloud. All Rights Reserved.
-            </p>
-        </div>
-    </footer>
-    <!-- End Footer -->
+        </section>
+     <section class="section-4">
+      <div class="sec-4-text">
+        <h1>
+          Motivation
+         </h1>
+         <p>
+          I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+      </div>
+      <div class="sec-4-img"></div>
+     </section>
+      <section class="section-5">
+        <div class="sec-5-form">  <h1>Calculate your BMI</h1>
+          <label for="weight" >Enter your weight </label>
+          <input type="weight" placeholder=" weight (in KG)" id="weight">
+          <label for="weight" >Enter your height </label>
+          <input type="weight" placeholder=" height (in CM)" id="height">
+          <button type="submit" class="submit-btn" id="submit-btn">submit</button></div>
+        <div class="sec-5-txt"></div>
+      </section>
+      
+
+  
+
+
+
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
