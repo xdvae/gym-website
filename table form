@@ -1,0 +1,56 @@
+<form>
+  <table>
+      <tr>
+         <th colspan="4">
+             <h3>Application Form</h3>
+         </th>
+      </tr>
+      <tr>
+          <th>First Name:</th>
+          <th><input type="text"></th>
+          <th>Last Name:</th>
+          <th><input type="text"></th>
+      </tr>
+      <tr>
+          <th>Date of birth:</th>
+          <th><input type="date"></th>
+          <th>Age: </th>
+          <th><input type="number"></th>
+      </tr>
+      <tr>
+          <th>Gender:</th>
+          <th>
+              
+              <select>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+          </select></th>
+          <th>Email Address:</th>
+          <th><input type="email"></th>
+      </tr>
+      <tr>
+          <th>Positions Available:</th>
+          <th> <input type="radio" name="pos">Junior Developer</th>
+          <th> <input type="radio" name="pos">Mid-level Developer</th>
+          <th> <input type="radio" name="pos">Senior Developer</th>
+      </tr>
+      <tr>
+          <th>Programming Languages</th>
+          <th><input type="checkbox" name="lang">Java</th>
+          <th><input type="checkbox" name="lang">JavaScript</th>
+          <th><input type="checkbox" name="lang">Python</th>
+      </tr>
+      <tr>
+          <th>Password:</th>
+          <th><input type="password"></th>
+          <th>Confirm Password:</th>
+          <th><input type="password"></th>
+      </tr>
+      <tr>
+          <th></th>
+          <th><input type="submit"></th>
+          <th><input type="reset"></th>
+          <th></th>
+      </tr>
+  </table>   
+</form>
